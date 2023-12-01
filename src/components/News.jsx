@@ -21,7 +21,7 @@ function News() {
   else{
     return(
       <div className='h-full w-full  m-auto   overflow-auto'>
-        <h1 className='text-2xl font-semibold text-center text-gray-600'>No News Found</h1>
+        <h1 className='text-2xl font-semibold text-center text-gray-600'>Sorry! Currently the API provider is rejecting the "https" requests </h1>
       </div>
     )
     
